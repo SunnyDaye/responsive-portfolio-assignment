@@ -3,35 +3,32 @@ html {
   overflow: auto;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
-  font-family: "Lucida Console", "Courier New", monospace;  
+  font-family: "Fantasy";
+  font-size: calc(1rem + 1vw);
+  font-weight: 100;
   scroll-behavior: smooth;
 }
 #header {
   width: 100%;
+  height: 100%;
   position: fixed;
   left: 0;
   top: 0;
-  justify-content:flex-start;
 }
 .container {
   width: 95%;
+  height: 100%;
   margin: 0 auto;
 }
 
+/*Header and navigation styling*/
 #header .container {
   display: flex;
-  justify-content: space-between;
-  
-}
-#header .container h1 {
-  color: #666699;
-  padding-top: 2%;
-  margin-top: 0;
-  padding-left: 0;
+  justify-content: flex-end;
 }
 
 .main-nav {
-  padding-top: 20%;
+  align-self: center;
 }
 
 .main-nav ul {
@@ -45,31 +42,37 @@ html {
 .main-nav ul li {
   float: left;
   margin-bottom: 35px;
-  font-size: 18px;
+  font-size: calc(0.3rem + 1vw);
 }
 
 .main-nav ul li a {
   text-decoration: none;
-  color: #fff;
+  color: grey;
 }
+
 section {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-
+/*Page styling*/
 #home {
   overflow: auto;
   max-width: 100%;
   height: 125%;
-  vertical-align: top;
   background-image: url("/images/banner1.png");
+}
+#page1 {
+  display: flex;
+  justify-content: center;
+}
+
+#page1 h1 {
+  color: #fff;
+  margin-top: 10%;
   
 }
 
-#home p {
-  color: #666699;
-}
 #about {
   max-width: 100%;
   height: 125%;
