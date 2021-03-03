@@ -4,33 +4,131 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suncer.io</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index-styler.css">
 </head>
 <body>
-    <header id="header">
-        <div class="container">
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section class="banner" id="home">
-        <div class="container" id="page1">
+    
+    <div class="container"> <!--Had to take nav out of header in order to 
+        avoid overlapping issues between header and other parts of webpage-->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="home" id="home">
+        <div id="title">
             <h1>Suncerie Daye</h1>
+        </div>
+        <div id="intro">
+            <p>I am an aspiring creative technologist,</p>
+            <p>a prospective seattle resident,</p>
+            <p>and an avid user experience developer!</p>
         </div>
     </section>
     <section class="about" id="about">
-        
+        <div id="interest">
+        <p>I've grown a passion for intertwining technology and creativity.</p>
+        <p>Creating tools and platforms for artistic interpretation motivates me <br>
+            to explore endeavors as a developer. </p>
+        <p>Revolutionizing how people interact with technology motivates me</p>
+        <p>to seek out a professional community and create world-changing projects.</p>
+        <p>I am doing this so I can test which color looks best on topof the graphics.</p>
+        <p>Other than being a creative technologist, I am a life long learner!</p>
+        <p>I enjoy taking classes at my local college and reading about all subjects.</p>
+        <p>I also enjoy going on long hikes and reading.</p>
+        <p>My passion for tech and story-telling makes me an avid gamer!</p>
+        </div>
+        <div id="services">
+            <h4>Proficiencies</h4>
+            <ul>
+                <li>Three.js</li>
+                <li>Node.js</li>
+                <li>WebGl</li>
+                <li>React</li>
+                <li>PostgreSQL</li>
+                <li>Unity</li>
+                <li>C++</li>
+            </ul>
+        </div>
+
     </section>
     <section class="contact" id="contact">
-        
+        <form action="https://formspree.io/f/xqkgvgeq"  method="post">
+            <div id="small-input">
+                <div>
+                    <label for="user-name">Name:</label>
+                    <input id="user-name" type="text" name="name" autofocus="on" required/>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input id="email" type="text" name="email" autofocus="on" required/>
+                </div>
+            </div>
+            <div id="message">
+                    <label for="form-message">Message:</label>
+                    <textarea id="form-message" name="message"maxlenth="500"></textarea>
+            </div>
+            <div id="form-buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+            </div>
+        </form>
+        <div id="imglinks">
+        <a href="https://github.com/SunnyDaye"><img src="images/github-logo.png"></a>
+        <a href="https://www.linkedin.com/in/suncerie-daye-b7a8991b8/"><img src="images/linkedin-logo.png"></a>
+        </div>
     </section>
     <section class="projects" id="projects">
+        <div id="project1">
+            <div id="row1">
+                <img src="images/project-placeholder.jpg">
+                <div id="info">
+                    <p>Title: Some Name</p>
+                    <a href="">Repo</a>
+                    <a href="">Live App</a>
+                    <p>Skills:
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Webgl</li>
+                            <li>React</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div id="description">
+                <p>Description: Some text will go here to explain <br>
+                    this really dope project.
+                    </p>
+            </div>   
+        </div>
+        <div id="project2">
+            <div id="row1">
+               <img src="images/project-placeholder.jpg">
+               <div id="info">
+                    <p>Title: Some Name</p>
+                    <a href="">Repo</a>
+                    <a href="">Live App</a>
+                    <p>Skills:
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Webgl</li>
+                            <li>React</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div id="description">
+                <p>Description: Some text will go here to explain <br>
+                this really dope project.
+                </p>
+            </div>
+        </div>
         
     </section>
 </body>
