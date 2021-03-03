@@ -49,7 +49,7 @@ section {
   overflow: auto;
   max-width: 100%;
   height: 115%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/images/banner1.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/banner1.png");
   text-align: center;
   
 }
@@ -95,7 +95,7 @@ section {
   justify-content: center;
   max-width: 100%;
   height: 105%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/images/Banner3.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/Banner3.jpg");
   color: #eaebed;
   font-size: calc(0.3rem + 1vw);
 }
@@ -152,7 +152,7 @@ form input[type="text"]{
   justify-content:center;
   max-width: 100%;
   height: 105%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/images/Banner4.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/Banner4.png");
   color: white;
   font-size: calc(0.3rem + 1vw);
 }
